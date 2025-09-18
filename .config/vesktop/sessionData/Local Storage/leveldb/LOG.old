@@ -1,0 +1,5 @@
+2025/09/17-18:01:51.957 e3a2 Reusing MANIFEST /home/flick/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/09/17-18:01:51.964 e3a2 Recovering log #6
+2025/09/17-18:01:51.965 e3a2 Reusing old log /home/flick/.config/vesktop/sessionData/Local Storage/leveldb/000006.log 
+2025/09/17-18:02:15.199 e4c7 Level-0 table #10: started
+2025/09/17-18:02:15.206 e4c7 Level-0 table #10: 65594 bytes OK

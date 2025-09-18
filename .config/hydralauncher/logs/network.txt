@@ -1,0 +1,1760 @@
+[2025-09-17 13:46:48.271] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:46:48.271] [info]  (network)      get /games/featured { language: 'en-US' } {}
+[2025-09-17 13:46:48.274] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:46:48.274] [info]  (network)      get /catalogue/hot?take=12&skip=0 {} {}
+[2025-09-17 13:46:48.872] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:46:48.873] [info]  (network)      200 get /catalogue/hot?take=12&skip=0 [
+  {
+    title: 'Hollow Knight: Silksong',
+    shop: 'steam',
+    objectId: '1030300',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1030300/header.jpg'
+  },
+  {
+    title: 'Hollow Knight',
+    shop: 'steam',
+    objectId: '367520',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg'
+  },
+  {
+    title: 'Red Dead Redemption 2',
+    shop: 'steam',
+    objectId: '1174180',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg'
+  },
+  {
+    title: 'Schedule I',
+    shop: 'steam',
+    objectId: '3164500',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3164500/header.jpg'
+  },
+  {
+    title: 'Grand Theft Auto V',
+    shop: 'steam',
+    objectId: '271590',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg'
+  },
+  {
+    title: 'Cuphead',
+    shop: 'steam',
+    objectId: '268910',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg'
+  },
+  {
+    title: 'Cyberpunk 2077',
+    shop: 'steam',
+    objectId: '1091500',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg'
+  },
+  {
+    title: 'Wallpaper Engine',
+    shop: 'steam',
+    objectId: '431960',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/431960/header.jpg'
+  },
+  {
+    title: 'God of War Ragnarök',
+    shop: 'steam',
+    objectId: '2322010',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg'
+  },
+  {
+    title: 'Lossless Scaling',
+    shop: 'steam',
+    objectId: '993090',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/993090/header.jpg'
+  },
+  {
+    title: 'ELDEN RING',
+    shop: 'steam',
+    objectId: '1245620',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg'
+  },
+  {
+    title: 'Satisfactory',
+    shop: 'steam',
+    objectId: '526870',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg'
+  }
+]
+[2025-09-17 13:46:48.873] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:46:48.874] [info]  (network)      200 get /games/featured [
+  {
+    shop: 'steam',
+    description: 'Discover a vast, haunted kingdom in Hollow Knight: Silksong! Explore, fight and survive as you ascend to the peak of a land ruled by silk and song.',
+    title: 'Hollow Knight: Silksong',
+    objectId: '1030300',
+    libraryHeroImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1030300/library_hero.jpg',
+    logoImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1030300/logo.png',
+    uri: '/game/steam/1030300?title=Hollow Knight: Silksong'
+  }
+]
+[2025-09-17 13:46:58.601] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:46:58.601] [info]  (network)      get /games/stats { objectId: '367520', shop: 'steam' } {}
+[2025-09-17 13:46:59.010] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:46:59.010] [info]  (network)      get /games/stats { objectId: '1030300', shop: 'steam' } {}
+[2025-09-17 13:46:59.488] [error] (network)       ---- RESPONSE ERROR -----
+[2025-09-17 13:46:59.489] [error] (network)      get https://hydra-api-us-east-1.losbroxas.org /games/stats {
+  Accept: 'application/json, text/plain, */*',
+  'User-Agent': 'Hydra Launcher v3.6.8',
+  'Accept-Encoding': 'gzip, compress, deflate, br'
+} {}
+[2025-09-17 13:46:59.490] [error] (network)      Request error: ETIMEDOUT 
+[2025-09-17 13:46:59.959] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:46:59.959] [info]  (network)      get /games/stats { objectId: '1174180', shop: 'steam' } {}
+[2025-09-17 13:47:00.345] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:47:00.345] [info]  (network)      200 get /games/stats {
+  playerCount: 1260,
+  downloadCount: 105526,
+  assets: {
+    objectId: '1030300',
+    shop: 'steam',
+    title: 'Hollow Knight: Silksong',
+    iconUrl: 'https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1030300/bb443a5a0b7ff5116bcf6c178a9a3b2b2b5f1ccd.ico',
+    libraryHeroImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1030300/library_hero.jpg',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1030300/header.jpg',
+    logoImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1030300/logo.png'
+  }
+}
+[2025-09-17 13:47:00.809] [error] (network)       ---- RESPONSE ERROR -----
+[2025-09-17 13:47:00.810] [error] (network)      get https://hydra-api-us-east-1.losbroxas.org /games/stats {
+  Accept: 'application/json, text/plain, */*',
+  'User-Agent': 'Hydra Launcher v3.6.8',
+  'Accept-Encoding': 'gzip, compress, deflate, br'
+} {}
+[2025-09-17 13:47:00.810] [error] (network)      Request error: ETIMEDOUT 
+[2025-09-17 13:47:01.204] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:47:01.204] [info]  (network)      post /catalogue/search undefined {
+  title: '',
+  downloadSourceFingerprints: [],
+  tags: [],
+  publishers: [],
+  genres: [],
+  developers: [],
+  take: 20,
+  skip: 0
+}
+[2025-09-17 13:47:01.608] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:47:01.608] [info]  (network)      200 post /catalogue/search {
+  count: 151843,
+  edges: [
+    {
+      objectId: '1790600',
+      title: 'DRAGON BALL: Sparking! ZERO',
+      shop: 'steam',
+      genres: [ 'Action' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1790600/header.jpg',
+      id: 'zglqqVnB'
+    },
+    {
+      objectId: '1174180',
+      title: 'Red Dead Redemption 2',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg',
+      id: 'xgWb5eop'
+    },
+    {
+      objectId: '1245620',
+      title: 'ELDEN RING',
+      shop: 'steam',
+      genres: [ 'Action', 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg',
+      id: 'yovrmJoV'
+    },
+    {
+      objectId: '2322010',
+      title: 'God of War Ragnarök',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg',
+      id: 'WKq0Yd9n'
+    },
+    {
+      objectId: '271590',
+      title: 'Grand Theft Auto V',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg',
+      id: '6oxywdg9'
+    },
+    {
+      objectId: '1888930',
+      title: 'The Last of Us™ Part I',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg',
+      id: 'anM1x2nE'
+    },
+    {
+      objectId: '1817070',
+      title: 'Marvel’s Spider-Man Remastered',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Casual' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg',
+      id: 'NoZjAwo2'
+    },
+    {
+      objectId: '268910',
+      title: 'Cuphead',
+      shop: 'steam',
+      genres: [ 'Action', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg',
+      id: 'wgLZYLK2'
+    },
+    {
+      objectId: '1593500',
+      title: 'God of War',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg',
+      id: 'aKBA2Znd'
+    },
+    {
+      objectId: '1091500',
+      title: 'Cyberpunk 2077',
+      shop: 'steam',
+      genres: [ 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg',
+      id: '1gD0d4gG'
+    },
+    {
+      objectId: '990080',
+      title: 'Hogwarts Legacy',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/990080/a3cdc6f40d97df8ac993679c2dd1edeb5222421e/header.jpg',
+      id: 'xgWZ58op'
+    },
+    {
+      objectId: '431960',
+      title: 'Wallpaper Engine',
+      shop: 'steam',
+      genres: [
+        'Casual',
+        'Indie',
+        'Animation & Modeling',
+        'Design & Illustration',
+        'Photo Editing',
+        'Utilities'
+      ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/431960/header.jpg',
+      id: 'VKyvr4ov'
+    },
+    {
+      objectId: '2215430',
+      title: "Ghost of Tsushima DIRECTOR'S CUT",
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg',
+      id: 'Aga5e3gx'
+    },
+    {
+      objectId: '1326470',
+      title: 'Sons Of The Forest',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg',
+      id: 'QgA3y2KB'
+    },
+    {
+      objectId: '2050650',
+      title: 'Resident Evil 4',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg',
+      id: 'GKQPGdn9'
+    },
+    {
+      objectId: '1811260',
+      title: 'EA SPORTS™ FIFA 23',
+      shop: 'steam',
+      genres: [ 'Simulation', 'Sports' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1811260/header.jpg',
+      id: 'VKyeZWKv'
+    },
+    {
+      objectId: '648800',
+      title: 'Raft',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Indie', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg',
+      id: 'GKQ7xag9'
+    },
+    {
+      objectId: '1551360',
+      title: 'Forza Horizon 5',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Racing', 'Simulation', 'Sports' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg',
+      id: 'wo6alRKY'
+    },
+    {
+      objectId: '2668510',
+      title: 'Red Dead Redemption',
+      shop: 'steam',
+      genres: [ 'Action' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2668510/header.jpg',
+      id: 'aKBDE3Xg'
+    },
+    {
+      objectId: '2651280',
+      title: "Marvel's Spider-Man 2",
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg',
+      id: 'Romk8YLn'
+    }
+  ]
+}
+[2025-09-17 13:47:06.594] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:47:06.594] [info]  (network)      post /catalogue/search undefined {
+  title: 'sekiro',
+  downloadSourceFingerprints: [],
+  tags: [],
+  publishers: [],
+  genres: [],
+  developers: [],
+  take: 20,
+  skip: 0
+}
+[2025-09-17 13:47:07.326] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:47:07.326] [info]  (network)      200 post /catalogue/search {
+  count: 36250,
+  edges: [
+    {
+      objectId: '814380',
+      title: 'Sekiro™: Shadows Die Twice - GOTY Edition',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg',
+      id: 'MKzLGZgx'
+    },
+    {
+      objectId: '3392230',
+      title: 'Sekira',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3392230/header.jpg',
+      id: 'wgLZ9GWK'
+    },
+    {
+      objectId: '2154790',
+      title: 'SEKISAI puzzle action',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2154790/header.jpg',
+      id: 'aKBrl8Kd'
+    },
+    {
+      objectId: '1432500',
+      title: 'The Sekimeiya: Spun Glass',
+      shop: 'steam',
+      genres: [ 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1432500/header.jpg',
+      id: '8g0NQBKW'
+    },
+    {
+      objectId: '1274850',
+      title: 'The Sickle Upon Sekigahara',
+      shop: 'steam',
+      genres: [ 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1274850/header.jpg',
+      id: 'VKy7DWgv'
+    },
+    {
+      objectId: '2724710',
+      title: 'SEKA II',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2724710/header.jpg',
+      id: 'ZgYwxmbK'
+    },
+    {
+      objectId: '2412720',
+      title: 'Sekala',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://steamcdn-a.akamaihd.net/steam/apps/2412720/header.jpg',
+      id: 'OgbkDlNn'
+    },
+    {
+      objectId: '2105620',
+      title: 'Sektori',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2105620/header.jpg',
+      id: 'WKq16EKl'
+    },
+    {
+      objectId: '1624380',
+      title: 'Horny Sekai',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1624380/header.jpg',
+      id: 'Rom5QLoQ'
+    },
+    {
+      objectId: '1829650',
+      title: 'Sekai to Sekai no Mannaka de',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1829650/header.jpg',
+      id: 'xgWQEdKp'
+    },
+    {
+      objectId: '1425620',
+      title: '赤蛮奇的头头大冒险 ~ Sekibanki Head Adventure',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Early Access' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1425620/header.jpg',
+      id: 'RomBYOgQ'
+    },
+    {
+      objectId: '3708460',
+      title: '雪景花 -Sekka the Gleam-',
+      shop: 'steam',
+      genres: [],
+      shopData: null,
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3708460/0dbfb707d14cbc3cad104fd0fdf0056a2175576e/header.jpg',
+      id: 'MKzjyb8K'
+    },
+    {
+      objectId: '3382780',
+      title: 'Sektar: Echoes of Fear',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3382780/header.jpg',
+      id: '3n813DJK'
+    },
+    {
+      objectId: '1422580',
+      title: 'Sekrets Of The Dungeon',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Casual', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1422580/header.jpg',
+      id: 'VKGbQDn4'
+    },
+    {
+      objectId: '675140',
+      title: 'Laika 2.0 - Sekret Pravda',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/675140/header.jpg',
+      id: 'MKzXy0gx'
+    },
+    {
+      objectId: '3299380',
+      title: 'Usagi Sekai - Bunny Shaman',
+      shop: 'steam',
+      genres: [ 'Indie', 'Free To Play' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3299380/header.jpg',
+      id: 'VKGDjD6o'
+    },
+    {
+      objectId: '1244090',
+      title: 'Sea of Stars',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Indie', 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1244090/header.jpg',
+      id: 'wgLvrLK2'
+    },
+    {
+      objectId: '368360',
+      title: '60 Seconds!',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Indie', 'Simulation', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/368360/header.jpg',
+      id: 'yov5p5KV'
+    },
+    {
+      objectId: '861650',
+      title: 'Session: Skate Sim',
+      shop: 'steam',
+      genres: [ 'Indie', 'Simulation', 'Sports', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/861650/header.jpg',
+      id: 'NoZXEAn2'
+    },
+    {
+      objectId: '2200780',
+      title: 'My Dream Setup',
+      shop: 'steam',
+      genres: [ 'Casual', 'Indie', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2200780/header.jpg',
+      id: '3oXwJYK4'
+    }
+  ]
+}
+[2025-09-17 13:47:09.474] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:47:09.474] [info]  (network)      get /features null {}
+[2025-09-17 13:47:09.475] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:47:09.475] [info]  (network)      get /features null {}
+[2025-09-17 13:47:09.476] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:47:09.477] [info]  (network)      get /games/stats { objectId: '814380', shop: 'steam' } {}
+[2025-09-17 13:47:09.483] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:47:09.483] [info]  (network)      get /games/stats { objectId: '814380', shop: 'steam' } {}
+[2025-09-17 13:47:09.823] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:47:09.823] [info]  (network)      200 get /features [ 'CHECK_DOWNLOAD_WRITE_PERMISSION', 'TORBOX' ]
+[2025-09-17 13:47:10.371] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:47:10.371] [info]  (network)      200 get /features [ 'CHECK_DOWNLOAD_WRITE_PERMISSION', 'TORBOX' ]
+[2025-09-17 13:47:10.505] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:47:10.505] [info]  (network)      200 get /games/stats {
+  playerCount: 67,
+  downloadCount: 170702,
+  assets: {
+    objectId: '814380',
+    shop: 'steam',
+    title: 'Sekiro™: Shadows Die Twice - GOTY Edition',
+    iconUrl: 'https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/814380/06f5400c9d524f8f6434b7b81ff1e780a691b297.ico',
+    libraryHeroImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/library_hero.jpg',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg',
+    logoImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/logo.png'
+  }
+}
+[2025-09-17 13:47:10.714] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:47:10.714] [info]  (network)      200 get /games/stats {
+  playerCount: 67,
+  downloadCount: 170702,
+  assets: {
+    objectId: '814380',
+    shop: 'steam',
+    title: 'Sekiro™: Shadows Die Twice - GOTY Edition',
+    iconUrl: 'https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/814380/06f5400c9d524f8f6434b7b81ff1e780a691b297.ico',
+    libraryHeroImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/library_hero.jpg',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg',
+    logoImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/logo.png'
+  }
+}
+[2025-09-17 13:47:11.520] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:47:11.520] [info]  (network)      get /games/how-long-to-beat?objectId=814380&shop=steam null {}
+[2025-09-17 13:47:12.000] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:47:12.000] [info]  (network)      200 get /games/how-long-to-beat?objectId=814380&shop=steam [
+  { title: 'Main Story', accuracy: '100', duration: '30 Hours' },
+  { title: 'Main + Sides', accuracy: '100', duration: '43 Hours' },
+  { title: 'Completionist', accuracy: '100', duration: '69½ Hours' },
+  { title: 'All Styles', accuracy: '100', duration: '45 Hours' }
+]
+[2025-09-17 13:47:42.156] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:47:42.157] [info]  (network)      get /features null {}
+[2025-09-17 13:47:42.383] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:47:42.383] [info]  (network)      200 get /features [ 'CHECK_DOWNLOAD_WRITE_PERMISSION', 'TORBOX' ]
+[2025-09-17 13:47:44.763] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:47:44.764] [info]  (network)      put /download-sources undefined {
+  objectIds: [
+    '222480',  '287290',  '304240',  '1819300', '1902790', '3396850',
+    '108600',  '919730',  '1729810', '3212640', '3278480', '2694580',
+    '1866890', '2490930', '3195790', '3425720', '2067680', '3096730',
+    '2138720', '3943200', '225360',  '262060',  '2262890', '2413960',
+    '1645820', '2183830', '3023470', '3295160', '1623730', '2174080',
+    '32500',   '1009910', '2488180', '3409630', '660880',  '1007870',
+    '1373580', '3981230', '960090',  '3320110', '598170',  '1532910',
+    '1667920', '1737480', '2670630', '3412600', '3447530', '3475470',
+    '1217250', '3164500', '739630',  '490110',  '1080290', '1302420',
+    '2795580', '3006140', '3083890', '2006570', '2239710', '2718120',
+    '13560',   '13570',   '1167630', '2256940', '3884930', '319510',
+    '2215390', '3669770', '879200',  '900330',  '1979390', '2522570',
+    '2552430', '2701660', '822230',  '1124550', '1296400', '1566990',
+    '2192280', '2980690', '3506430', '3527290', '1430540', '1481340',
+    '1721060', '2365550', '1244630', '1444350', '3221740', '394360',
+    '2575290', '2738520', '892970',  '2535800', '3551060', '3948940',
+    '2737070', '1604270', '1838170', '682990',
+    ... 1049 more items
+  ]
+}
+[2025-09-17 13:47:45.028] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:47:45.028] [info]  (network)      200 put /download-sources {
+  fingerprint: 'bbefa2895e66ffaa0325fdb0eca82570705012f46742b32ffb9056a7c1dcbfed'
+}
+[2025-09-17 13:48:04.092] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:48:04.092] [info]  (network)      put /download-sources undefined {
+  objectIds: [
+    '806360',  '3686940', '1080290', '1302420', '2795580', '3006140',
+    '3083890', '241560',  '877180',  '2811530', '392160',  '1463510',
+    '1471450', '2726750', '3223680', '3628070', '3240310', '1538550',
+    '302670',  '400750',  '660880',  '1007870', '3039890', '3981230',
+    '3218790', '1534340', '3669770', '362930',  '1854900', '2117300',
+    '3755190', '3239650', '3801120', '1555150', '3278480', '2694580',
+    '1184210', '1327370', '3088670', '232770',  '1359980', '1566990',
+    '2980690', '3112220', '527230',  '1676840', '2494360', '3204960',
+    '2006570', '2341560', '2635640', '687800',  '1525420', '2575290',
+    '1375270', '2267500', '2444750', '3023470', '3295160', '1376470',
+    '1765060', '2332190', '497630',  '3372890', '532920',  '3763740',
+    '2549650', '2773560', '500190',  '1204630', '1669480', '2835980',
+    '2628060', '379430',  '879200',  '900330',  '1771300', '1979390',
+    '2522570', '3067890', '1480560', '3094480', '3339410', '919640',
+    '1430540', '1481340', '1488400', '1494810', '203770',  '1158310',
+    '4005500', '476240',  '1346360', '1533940', '2167640', '3091110',
+    '3199890', '1831270', '1138620', '1422200',
+    ... 7753 more items
+  ]
+}
+[2025-09-17 13:48:04.596] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:48:04.596] [info]  (network)      200 put /download-sources {
+  fingerprint: '67dde4d36421db637b562c2e65535f6b95c75062f351e7b2e52a16541d0b708f'
+}
+[2025-09-17 13:48:25.572] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:48:25.572] [info]  (network)      post /catalogue/search undefined {
+  title: '',
+  downloadSourceFingerprints: [],
+  tags: [],
+  publishers: [],
+  genres: [],
+  developers: [],
+  take: 20,
+  skip: 0
+}
+[2025-09-17 13:48:25.797] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:48:25.797] [info]  (network)      200 post /catalogue/search {
+  count: 151843,
+  edges: [
+    {
+      objectId: '1790600',
+      title: 'DRAGON BALL: Sparking! ZERO',
+      shop: 'steam',
+      genres: [ 'Action' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1790600/header.jpg',
+      id: 'zglqqVnB'
+    },
+    {
+      objectId: '1174180',
+      title: 'Red Dead Redemption 2',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg',
+      id: 'xgWb5eop'
+    },
+    {
+      objectId: '1245620',
+      title: 'ELDEN RING',
+      shop: 'steam',
+      genres: [ 'Action', 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg',
+      id: 'yovrmJoV'
+    },
+    {
+      objectId: '2322010',
+      title: 'God of War Ragnarök',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg',
+      id: 'WKq0Yd9n'
+    },
+    {
+      objectId: '271590',
+      title: 'Grand Theft Auto V',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg',
+      id: '6oxywdg9'
+    },
+    {
+      objectId: '1888930',
+      title: 'The Last of Us™ Part I',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg',
+      id: 'anM1x2nE'
+    },
+    {
+      objectId: '1817070',
+      title: 'Marvel’s Spider-Man Remastered',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Casual' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg',
+      id: 'NoZjAwo2'
+    },
+    {
+      objectId: '268910',
+      title: 'Cuphead',
+      shop: 'steam',
+      genres: [ 'Action', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg',
+      id: 'wgLZYLK2'
+    },
+    {
+      objectId: '1593500',
+      title: 'God of War',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg',
+      id: 'aKBA2Znd'
+    },
+    {
+      objectId: '1091500',
+      title: 'Cyberpunk 2077',
+      shop: 'steam',
+      genres: [ 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg',
+      id: '1gD0d4gG'
+    },
+    {
+      objectId: '990080',
+      title: 'Hogwarts Legacy',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/990080/a3cdc6f40d97df8ac993679c2dd1edeb5222421e/header.jpg',
+      id: 'xgWZ58op'
+    },
+    {
+      objectId: '431960',
+      title: 'Wallpaper Engine',
+      shop: 'steam',
+      genres: [
+        'Casual',
+        'Indie',
+        'Animation & Modeling',
+        'Design & Illustration',
+        'Photo Editing',
+        'Utilities'
+      ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/431960/header.jpg',
+      id: 'VKyvr4ov'
+    },
+    {
+      objectId: '2215430',
+      title: "Ghost of Tsushima DIRECTOR'S CUT",
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg',
+      id: 'Aga5e3gx'
+    },
+    {
+      objectId: '1326470',
+      title: 'Sons Of The Forest',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg',
+      id: 'QgA3y2KB'
+    },
+    {
+      objectId: '2050650',
+      title: 'Resident Evil 4',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg',
+      id: 'GKQPGdn9'
+    },
+    {
+      objectId: '1811260',
+      title: 'EA SPORTS™ FIFA 23',
+      shop: 'steam',
+      genres: [ 'Simulation', 'Sports' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1811260/header.jpg',
+      id: 'VKyeZWKv'
+    },
+    {
+      objectId: '648800',
+      title: 'Raft',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Indie', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg',
+      id: 'GKQ7xag9'
+    },
+    {
+      objectId: '1551360',
+      title: 'Forza Horizon 5',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Racing', 'Simulation', 'Sports' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg',
+      id: 'wo6alRKY'
+    },
+    {
+      objectId: '2668510',
+      title: 'Red Dead Redemption',
+      shop: 'steam',
+      genres: [ 'Action' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2668510/header.jpg',
+      id: 'aKBDE3Xg'
+    },
+    {
+      objectId: '2651280',
+      title: "Marvel's Spider-Man 2",
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg',
+      id: 'Romk8YLn'
+    }
+  ]
+}
+[2025-09-17 13:48:28.100] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:48:28.100] [info]  (network)      post /catalogue/search undefined {
+  title: 'sed',
+  downloadSourceFingerprints: [],
+  tags: [],
+  publishers: [],
+  genres: [],
+  developers: [],
+  take: 20,
+  skip: 0
+}
+[2025-09-17 13:48:28.540] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:48:28.540] [info]  (network)      200 post /catalogue/search {
+  count: 36250,
+  edges: [
+    {
+      objectId: '2650730',
+      title: 'SEDAP!',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2650730/header.jpg',
+      id: '3oX751jK'
+    },
+    {
+      objectId: '1388570',
+      title: 'Seduction',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1388570/header.jpg',
+      id: 'Xoe19AoM'
+    },
+    {
+      objectId: '2845150',
+      title: 'Seductress',
+      shop: 'steam',
+      genres: [
+        'Action',
+        'Adventure',
+        'Indie',
+        'RPG',
+        'Simulation',
+        'Strategy',
+        'Early Access'
+      ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2845150/header.jpg',
+      id: '3oX78EYK'
+    },
+    {
+      objectId: '2830530',
+      title: 'SeDECKtion',
+      shop: 'steam',
+      genres: [ 'Strategy', 'Free To Play' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2830530/header.jpg',
+      id: 'No2vD9ro'
+    },
+    {
+      objectId: '660180',
+      title: 'Seduction 誘惑',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Indie', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/660180/header.jpg',
+      id: 'No2X2lnv'
+    },
+    {
+      objectId: '3911970',
+      title: 'Girls Seducer',
+      shop: 'steam',
+      genres: [],
+      shopData: null,
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3911970/ab6a4b597c1eed81b8a475cab17f9037931d20df/header.jpg',
+      id: 'GKQRQPNo'
+    },
+    {
+      objectId: '2797250',
+      title: 'FURRY Seduction',
+      shop: 'steam',
+      genres: [ 'Casual' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2797250/header.jpg',
+      id: 'jnEDE70g'
+    },
+    {
+      objectId: '1684220',
+      title: 'SEDOMAIRI / せどまいり',
+      shop: 'steam',
+      genres: [ 'Action', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1684220/header.jpg',
+      id: 'AgapJjox'
+    },
+    {
+      objectId: '2397770',
+      title: 'Seduce her Harem',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2397770/header.jpg',
+      id: 'WKq0b0vn'
+    },
+    {
+      objectId: '1588880',
+      title: 'Seductive Tombs',
+      shop: 'steam',
+      genres: [ 'Casual', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1588880/header.jpg',
+      id: '0gVr79gM'
+    },
+    {
+      objectId: '2564080',
+      title: 'Seductive Sister',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2564080/header.jpg',
+      id: 'GKQRyaNo'
+    },
+    {
+      objectId: '546900',
+      title: 'Fear Effect Sedna',
+      shop: 'steam',
+      genres: [ 'Action', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/546900/header.jpg',
+      id: 'xgWy8ZKp'
+    },
+    {
+      objectId: '1853780',
+      title: 'FPS Seduce - Hentai',
+      shop: 'steam',
+      genres: [ 'Action', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1853780/78b83aef233cf5db9dfe0c0a3bcfa8956c5098b6/header.jpg',
+      id: 'vnrEWpgd'
+    },
+    {
+      objectId: '1925060',
+      title: 'Game of seduction',
+      shop: 'steam',
+      genres: [ 'Casual', 'RPG', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1925060/header.jpg',
+      id: 'wo5kvEn9'
+    },
+    {
+      objectId: '863570',
+      title: 'Super Seducer 2 - Advanced Seduction Tactics',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'RPG', 'Simulation', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/863570/header.jpg',
+      id: 'XoeAb5oM'
+    },
+    {
+      objectId: '2738860',
+      title: 'Seductive Shadows',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Indie', 'Early Access' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2738860/header.jpg',
+      id: '0gVjPy9g'
+    },
+    {
+      objectId: '1839570',
+      title: 'College Seduction',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1839570/header.jpg',
+      id: 'Rn3bDNg8'
+    },
+    {
+      objectId: '2178490',
+      title: 'Seducing The Devil',
+      shop: 'steam',
+      genres: [ 'Indie', 'Early Access' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2178490/header.jpg',
+      id: 'wo5a2Oo9'
+    },
+    {
+      objectId: '2610290',
+      title: 'Teacher Seduction',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2610290/header.jpg',
+      id: 'NoZb68yo'
+    },
+    {
+      objectId: '3183120',
+      title: 'Seduction Clicker',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3183120/header.jpg',
+      id: '8g064ZGK'
+    }
+  ]
+}
+[2025-09-17 13:48:29.115] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:48:29.116] [info]  (network)      post /catalogue/search undefined {
+  title: 'sedkir',
+  downloadSourceFingerprints: [],
+  tags: [],
+  publishers: [],
+  genres: [],
+  developers: [],
+  take: 20,
+  skip: 0
+}
+[2025-09-17 13:48:29.312] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:48:29.313] [info]  (network)      200 post /catalogue/search {
+  count: 36250,
+  edges: [
+    {
+      objectId: '2650730',
+      title: 'SEDAP!',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2650730/header.jpg',
+      id: '3oX751jK'
+    },
+    {
+      objectId: '1388570',
+      title: 'Seduction',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1388570/header.jpg',
+      id: 'Xoe19AoM'
+    },
+    {
+      objectId: '660180',
+      title: 'Seduction 誘惑',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Indie', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/660180/header.jpg',
+      id: 'No2X2lnv'
+    },
+    {
+      objectId: '2845150',
+      title: 'Seductress',
+      shop: 'steam',
+      genres: [
+        'Action',
+        'Adventure',
+        'Indie',
+        'RPG',
+        'Simulation',
+        'Strategy',
+        'Early Access'
+      ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2845150/header.jpg',
+      id: '3oX78EYK'
+    },
+    {
+      objectId: '2830530',
+      title: 'SeDECKtion',
+      shop: 'steam',
+      genres: [ 'Strategy', 'Free To Play' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2830530/header.jpg',
+      id: 'No2vD9ro'
+    },
+    {
+      objectId: '1377300',
+      title: 'SEX Summer Seduction VR',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Casual', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1377300/7f76eb2d51d8b0cb86927a7edfd29937d55e0a44/header.jpg',
+      id: 'wo5J0Pg9'
+    },
+    {
+      objectId: '3911970',
+      title: 'Girls Seducer',
+      shop: 'steam',
+      genres: [],
+      shopData: null,
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3911970/ab6a4b597c1eed81b8a475cab17f9037931d20df/header.jpg',
+      id: 'GKQRQPNo'
+    },
+    {
+      objectId: '2564080',
+      title: 'Seductive Sister',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2564080/header.jpg',
+      id: 'GKQRyaNo'
+    },
+    {
+      objectId: '546900',
+      title: 'Fear Effect Sedna',
+      shop: 'steam',
+      genres: [ 'Action', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/546900/header.jpg',
+      id: 'xgWy8ZKp'
+    },
+    {
+      objectId: '3764880',
+      title: 'Seek and Seduce: Naomie',
+      shop: 'steam',
+      genres: [],
+      shopData: null,
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3764880/cd1bfe909726dd3685de0368c186ff11026bbb18/header.jpg',
+      id: 'RnwYV7bo'
+    },
+    {
+      objectId: '1853780',
+      title: 'FPS Seduce - Hentai',
+      shop: 'steam',
+      genres: [ 'Action', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1853780/78b83aef233cf5db9dfe0c0a3bcfa8956c5098b6/header.jpg',
+      id: 'vnrEWpgd'
+    },
+    {
+      objectId: '863570',
+      title: 'Super Seducer 2 - Advanced Seduction Tactics',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'RPG', 'Simulation', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/863570/header.jpg',
+      id: 'XoeAb5oM'
+    },
+    {
+      objectId: '2797250',
+      title: 'FURRY Seduction',
+      shop: 'steam',
+      genres: [ 'Casual' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2797250/header.jpg',
+      id: 'jnEDE70g'
+    },
+    {
+      objectId: '1684220',
+      title: 'SEDOMAIRI / せどまいり',
+      shop: 'steam',
+      genres: [ 'Action', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1684220/header.jpg',
+      id: 'AgapJjox'
+    },
+    {
+      objectId: '2397770',
+      title: 'Seduce her Harem',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2397770/header.jpg',
+      id: 'WKq0b0vn'
+    },
+    {
+      objectId: '1588880',
+      title: 'Seductive Tombs',
+      shop: 'steam',
+      genres: [ 'Casual', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1588880/header.jpg',
+      id: '0gVr79gM'
+    },
+    {
+      objectId: '2455140',
+      title: "Wings of Seduction: Bust 'em out!",
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2455140/3c0b60c17e70f2b6313093cc6d1f4800451352ba/header.jpg',
+      id: 'WKq0EDxn'
+    },
+    {
+      objectId: '2738860',
+      title: 'Seductive Shadows',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Indie', 'Early Access' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2738860/header.jpg',
+      id: '0gVjPy9g'
+    },
+    {
+      objectId: '1839570',
+      title: 'College Seduction',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1839570/header.jpg',
+      id: 'Rn3bDNg8'
+    },
+    {
+      objectId: '1925060',
+      title: 'Game of seduction',
+      shop: 'steam',
+      genres: [ 'Casual', 'RPG', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1925060/header.jpg',
+      id: 'wo5kvEn9'
+    }
+  ]
+}
+[2025-09-17 13:48:29.657] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:48:29.657] [info]  (network)      post /catalogue/search undefined {
+  title: 'sedkirop',
+  downloadSourceFingerprints: [],
+  tags: [],
+  publishers: [],
+  genres: [],
+  developers: [],
+  take: 20,
+  skip: 0
+}
+[2025-09-17 13:48:29.833] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:48:29.833] [info]  (network)      200 post /catalogue/search {
+  count: 36250,
+  edges: [
+    {
+      objectId: '2650730',
+      title: 'SEDAP!',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2650730/header.jpg',
+      id: '3oX751jK'
+    },
+    {
+      objectId: '1388570',
+      title: 'Seduction',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1388570/header.jpg',
+      id: 'Xoe19AoM'
+    },
+    {
+      objectId: '660180',
+      title: 'Seduction 誘惑',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Indie', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/660180/header.jpg',
+      id: 'No2X2lnv'
+    },
+    {
+      objectId: '2845150',
+      title: 'Seductress',
+      shop: 'steam',
+      genres: [
+        'Action',
+        'Adventure',
+        'Indie',
+        'RPG',
+        'Simulation',
+        'Strategy',
+        'Early Access'
+      ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2845150/header.jpg',
+      id: '3oX78EYK'
+    },
+    {
+      objectId: '2830530',
+      title: 'SeDECKtion',
+      shop: 'steam',
+      genres: [ 'Strategy', 'Free To Play' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2830530/header.jpg',
+      id: 'No2vD9ro'
+    },
+    {
+      objectId: '1377300',
+      title: 'SEX Summer Seduction VR',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Casual', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1377300/7f76eb2d51d8b0cb86927a7edfd29937d55e0a44/header.jpg',
+      id: 'wo5J0Pg9'
+    },
+    {
+      objectId: '3911970',
+      title: 'Girls Seducer',
+      shop: 'steam',
+      genres: [],
+      shopData: null,
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3911970/ab6a4b597c1eed81b8a475cab17f9037931d20df/header.jpg',
+      id: 'GKQRQPNo'
+    },
+    {
+      objectId: '2564080',
+      title: 'Seductive Sister',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2564080/header.jpg',
+      id: 'GKQRyaNo'
+    },
+    {
+      objectId: '546900',
+      title: 'Fear Effect Sedna',
+      shop: 'steam',
+      genres: [ 'Action', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/546900/header.jpg',
+      id: 'xgWy8ZKp'
+    },
+    {
+      objectId: '3764880',
+      title: 'Seek and Seduce: Naomie',
+      shop: 'steam',
+      genres: [],
+      shopData: null,
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3764880/cd1bfe909726dd3685de0368c186ff11026bbb18/header.jpg',
+      id: 'RnwYV7bo'
+    },
+    {
+      objectId: '1853780',
+      title: 'FPS Seduce - Hentai',
+      shop: 'steam',
+      genres: [ 'Action', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1853780/78b83aef233cf5db9dfe0c0a3bcfa8956c5098b6/header.jpg',
+      id: 'vnrEWpgd'
+    },
+    {
+      objectId: '863570',
+      title: 'Super Seducer 2 - Advanced Seduction Tactics',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'RPG', 'Simulation', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/863570/header.jpg',
+      id: 'XoeAb5oM'
+    },
+    {
+      objectId: '2797250',
+      title: 'FURRY Seduction',
+      shop: 'steam',
+      genres: [ 'Casual' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2797250/header.jpg',
+      id: 'jnEDE70g'
+    },
+    {
+      objectId: '1684220',
+      title: 'SEDOMAIRI / せどまいり',
+      shop: 'steam',
+      genres: [ 'Action', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1684220/header.jpg',
+      id: 'AgapJjox'
+    },
+    {
+      objectId: '2397770',
+      title: 'Seduce her Harem',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2397770/header.jpg',
+      id: 'WKq0b0vn'
+    },
+    {
+      objectId: '1588880',
+      title: 'Seductive Tombs',
+      shop: 'steam',
+      genres: [ 'Casual', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1588880/header.jpg',
+      id: '0gVr79gM'
+    },
+    {
+      objectId: '2455140',
+      title: "Wings of Seduction: Bust 'em out!",
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2455140/3c0b60c17e70f2b6313093cc6d1f4800451352ba/header.jpg',
+      id: 'WKq0EDxn'
+    },
+    {
+      objectId: '2738860',
+      title: 'Seductive Shadows',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Indie', 'Early Access' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2738860/header.jpg',
+      id: '0gVjPy9g'
+    },
+    {
+      objectId: '1839570',
+      title: 'College Seduction',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1839570/header.jpg',
+      id: 'Rn3bDNg8'
+    },
+    {
+      objectId: '1925060',
+      title: 'Game of seduction',
+      shop: 'steam',
+      genres: [ 'Casual', 'RPG', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1925060/header.jpg',
+      id: 'wo5kvEn9'
+    }
+  ]
+}
+[2025-09-17 13:48:32.340] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:48:32.341] [info]  (network)      post /catalogue/search undefined {
+  title: 'sedkiro',
+  downloadSourceFingerprints: [],
+  tags: [],
+  publishers: [],
+  genres: [],
+  developers: [],
+  take: 20,
+  skip: 0
+}
+[2025-09-17 13:48:32.823] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:48:32.824] [info]  (network)      200 post /catalogue/search {
+  count: 36250,
+  edges: [
+    {
+      objectId: '2650730',
+      title: 'SEDAP!',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2650730/header.jpg',
+      id: '3oX751jK'
+    },
+    {
+      objectId: '1388570',
+      title: 'Seduction',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1388570/header.jpg',
+      id: 'Xoe19AoM'
+    },
+    {
+      objectId: '660180',
+      title: 'Seduction 誘惑',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Indie', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/660180/header.jpg',
+      id: 'No2X2lnv'
+    },
+    {
+      objectId: '2845150',
+      title: 'Seductress',
+      shop: 'steam',
+      genres: [
+        'Action',
+        'Adventure',
+        'Indie',
+        'RPG',
+        'Simulation',
+        'Strategy',
+        'Early Access'
+      ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2845150/header.jpg',
+      id: '3oX78EYK'
+    },
+    {
+      objectId: '2830530',
+      title: 'SeDECKtion',
+      shop: 'steam',
+      genres: [ 'Strategy', 'Free To Play' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2830530/header.jpg',
+      id: 'No2vD9ro'
+    },
+    {
+      objectId: '1377300',
+      title: 'SEX Summer Seduction VR',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Casual', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1377300/7f76eb2d51d8b0cb86927a7edfd29937d55e0a44/header.jpg',
+      id: 'wo5J0Pg9'
+    },
+    {
+      objectId: '3911970',
+      title: 'Girls Seducer',
+      shop: 'steam',
+      genres: [],
+      shopData: null,
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3911970/ab6a4b597c1eed81b8a475cab17f9037931d20df/header.jpg',
+      id: 'GKQRQPNo'
+    },
+    {
+      objectId: '2564080',
+      title: 'Seductive Sister',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2564080/header.jpg',
+      id: 'GKQRyaNo'
+    },
+    {
+      objectId: '546900',
+      title: 'Fear Effect Sedna',
+      shop: 'steam',
+      genres: [ 'Action', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/546900/header.jpg',
+      id: 'xgWy8ZKp'
+    },
+    {
+      objectId: '3764880',
+      title: 'Seek and Seduce: Naomie',
+      shop: 'steam',
+      genres: [],
+      shopData: null,
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3764880/cd1bfe909726dd3685de0368c186ff11026bbb18/header.jpg',
+      id: 'RnwYV7bo'
+    },
+    {
+      objectId: '1853780',
+      title: 'FPS Seduce - Hentai',
+      shop: 'steam',
+      genres: [ 'Action', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1853780/78b83aef233cf5db9dfe0c0a3bcfa8956c5098b6/header.jpg',
+      id: 'vnrEWpgd'
+    },
+    {
+      objectId: '863570',
+      title: 'Super Seducer 2 - Advanced Seduction Tactics',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'RPG', 'Simulation', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/863570/header.jpg',
+      id: 'XoeAb5oM'
+    },
+    {
+      objectId: '2797250',
+      title: 'FURRY Seduction',
+      shop: 'steam',
+      genres: [ 'Casual' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2797250/header.jpg',
+      id: 'jnEDE70g'
+    },
+    {
+      objectId: '1684220',
+      title: 'SEDOMAIRI / せどまいり',
+      shop: 'steam',
+      genres: [ 'Action', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1684220/header.jpg',
+      id: 'AgapJjox'
+    },
+    {
+      objectId: '2397770',
+      title: 'Seduce her Harem',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2397770/header.jpg',
+      id: 'WKq0b0vn'
+    },
+    {
+      objectId: '1588880',
+      title: 'Seductive Tombs',
+      shop: 'steam',
+      genres: [ 'Casual', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1588880/header.jpg',
+      id: '0gVr79gM'
+    },
+    {
+      objectId: '2455140',
+      title: "Wings of Seduction: Bust 'em out!",
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2455140/3c0b60c17e70f2b6313093cc6d1f4800451352ba/header.jpg',
+      id: 'WKq0EDxn'
+    },
+    {
+      objectId: '2738860',
+      title: 'Seductive Shadows',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Indie', 'Early Access' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2738860/header.jpg',
+      id: '0gVjPy9g'
+    },
+    {
+      objectId: '1839570',
+      title: 'College Seduction',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1839570/header.jpg',
+      id: 'Rn3bDNg8'
+    },
+    {
+      objectId: '1925060',
+      title: 'Game of seduction',
+      shop: 'steam',
+      genres: [ 'Casual', 'RPG', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1925060/header.jpg',
+      id: 'wo5kvEn9'
+    }
+  ]
+}
+[2025-09-17 13:48:35.925] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:48:35.926] [info]  (network)      post /catalogue/search undefined {
+  title: 'sekiro',
+  downloadSourceFingerprints: [],
+  tags: [],
+  publishers: [],
+  genres: [],
+  developers: [],
+  take: 20,
+  skip: 0
+}
+[2025-09-17 13:48:36.363] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:48:36.363] [info]  (network)      200 post /catalogue/search {
+  count: 36250,
+  edges: [
+    {
+      objectId: '814380',
+      title: 'Sekiro™: Shadows Die Twice - GOTY Edition',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg',
+      id: 'MKzLGZgx'
+    },
+    {
+      objectId: '3392230',
+      title: 'Sekira',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3392230/header.jpg',
+      id: 'wgLZ9GWK'
+    },
+    {
+      objectId: '2154790',
+      title: 'SEKISAI puzzle action',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2154790/header.jpg',
+      id: 'aKBrl8Kd'
+    },
+    {
+      objectId: '1432500',
+      title: 'The Sekimeiya: Spun Glass',
+      shop: 'steam',
+      genres: [ 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1432500/header.jpg',
+      id: '8g0NQBKW'
+    },
+    {
+      objectId: '1274850',
+      title: 'The Sickle Upon Sekigahara',
+      shop: 'steam',
+      genres: [ 'Adventure' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1274850/header.jpg',
+      id: 'VKy7DWgv'
+    },
+    {
+      objectId: '2724710',
+      title: 'SEKA II',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2724710/header.jpg',
+      id: 'ZgYwxmbK'
+    },
+    {
+      objectId: '2412720',
+      title: 'Sekala',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://steamcdn-a.akamaihd.net/steam/apps/2412720/header.jpg',
+      id: 'OgbkDlNn'
+    },
+    {
+      objectId: '2105620',
+      title: 'Sektori',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2105620/header.jpg',
+      id: 'WKq16EKl'
+    },
+    {
+      objectId: '1624380',
+      title: 'Horny Sekai',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1624380/header.jpg',
+      id: 'Rom5QLoQ'
+    },
+    {
+      objectId: '1829650',
+      title: 'Sekai to Sekai no Mannaka de',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1829650/header.jpg',
+      id: 'xgWQEdKp'
+    },
+    {
+      objectId: '1425620',
+      title: '赤蛮奇的头头大冒险 ~ Sekibanki Head Adventure',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Early Access' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1425620/header.jpg',
+      id: 'RomBYOgQ'
+    },
+    {
+      objectId: '3708460',
+      title: '雪景花 -Sekka the Gleam-',
+      shop: 'steam',
+      genres: [],
+      shopData: null,
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3708460/0dbfb707d14cbc3cad104fd0fdf0056a2175576e/header.jpg',
+      id: 'MKzjyb8K'
+    },
+    {
+      objectId: '3382780',
+      title: 'Sektar: Echoes of Fear',
+      shop: 'steam',
+      genres: [],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3382780/header.jpg',
+      id: '3n813DJK'
+    },
+    {
+      objectId: '1422580',
+      title: 'Sekrets Of The Dungeon',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Casual', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1422580/header.jpg',
+      id: 'VKGbQDn4'
+    },
+    {
+      objectId: '675140',
+      title: 'Laika 2.0 - Sekret Pravda',
+      shop: 'steam',
+      genres: [ 'Action', 'Adventure', 'Indie' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/675140/header.jpg',
+      id: 'MKzXy0gx'
+    },
+    {
+      objectId: '3299380',
+      title: 'Usagi Sekai - Bunny Shaman',
+      shop: 'steam',
+      genres: [ 'Indie', 'Free To Play' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/3299380/header.jpg',
+      id: 'VKGDjD6o'
+    },
+    {
+      objectId: '1244090',
+      title: 'Sea of Stars',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Indie', 'RPG' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/1244090/header.jpg',
+      id: 'wgLvrLK2'
+    },
+    {
+      objectId: '368360',
+      title: '60 Seconds!',
+      shop: 'steam',
+      genres: [ 'Adventure', 'Casual', 'Indie', 'Simulation', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/368360/header.jpg',
+      id: 'yov5p5KV'
+    },
+    {
+      objectId: '861650',
+      title: 'Session: Skate Sim',
+      shop: 'steam',
+      genres: [ 'Indie', 'Simulation', 'Sports', 'Strategy' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/861650/header.jpg',
+      id: 'NoZXEAn2'
+    },
+    {
+      objectId: '2200780',
+      title: 'My Dream Setup',
+      shop: 'steam',
+      genres: [ 'Casual', 'Indie', 'Simulation' ],
+      libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/2200780/header.jpg',
+      id: '3oXwJYK4'
+    }
+  ]
+}
+[2025-09-17 13:48:36.913] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:48:36.913] [info]  (network)      get /features null {}
+[2025-09-17 13:48:36.913] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:48:36.914] [info]  (network)      get /features null {}
+[2025-09-17 13:48:37.126] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:48:37.126] [info]  (network)      200 get /features [ 'CHECK_DOWNLOAD_WRITE_PERMISSION', 'TORBOX' ]
+[2025-09-17 13:48:37.183] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:48:37.183] [info]  (network)      200 get /features [ 'CHECK_DOWNLOAD_WRITE_PERMISSION', 'TORBOX' ]
+[2025-09-17 13:49:03.733] [info]  (network)       ---- REQUEST -----
+[2025-09-17 13:49:03.733] [info]  (network)      post /games/download undefined { objectId: '814380', shop: 'steam' }
+[2025-09-17 13:49:04.139] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 13:49:04.139] [info]  (network)      200 post /games/download {
+  objectId: '814380',
+  shop: 'steam',
+  createdAt: '2025-09-17T13:49:03.878Z',
+  updatedAt: '2025-09-17T13:49:03.878Z'
+}
+[2025-09-17 15:47:28.707] [info]  (network)       ---- REQUEST -----
+[2025-09-17 15:47:28.714] [info]  (network)      get /features null {}
+[2025-09-17 15:47:28.715] [info]  (network)       ---- REQUEST -----
+[2025-09-17 15:47:28.715] [info]  (network)      get /features null {}
+[2025-09-17 15:47:28.716] [info]  (network)       ---- REQUEST -----
+[2025-09-17 15:47:28.716] [info]  (network)      get /games/stats { objectId: '814380', shop: 'steam' } {}
+[2025-09-17 15:47:28.725] [info]  (network)       ---- REQUEST -----
+[2025-09-17 15:47:28.725] [info]  (network)      get /games/stats { objectId: '814380', shop: 'steam' } {}
+[2025-09-17 15:47:29.018] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 15:47:29.018] [info]  (network)      200 get /features [ 'CHECK_DOWNLOAD_WRITE_PERMISSION', 'TORBOX' ]
+[2025-09-17 15:47:29.053] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 15:47:29.053] [info]  (network)      200 get /games/stats {
+  playerCount: 104,
+  downloadCount: 170738,
+  assets: {
+    objectId: '814380',
+    shop: 'steam',
+    title: 'Sekiro™: Shadows Die Twice - GOTY Edition',
+    iconUrl: 'https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/814380/06f5400c9d524f8f6434b7b81ff1e780a691b297.ico',
+    libraryHeroImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/library_hero.jpg',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg',
+    logoImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/logo.png'
+  }
+}
+[2025-09-17 15:47:29.069] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 15:47:29.069] [info]  (network)      200 get /features [ 'CHECK_DOWNLOAD_WRITE_PERMISSION', 'TORBOX' ]
+[2025-09-17 15:47:29.086] [info]  (network)       ---- RESPONSE -----
+[2025-09-17 15:47:29.087] [info]  (network)      200 get /games/stats {
+  playerCount: 104,
+  downloadCount: 170738,
+  assets: {
+    objectId: '814380',
+    shop: 'steam',
+    title: 'Sekiro™: Shadows Die Twice - GOTY Edition',
+    iconUrl: 'https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/814380/06f5400c9d524f8f6434b7b81ff1e780a691b297.ico',
+    libraryHeroImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/library_hero.jpg',
+    libraryImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg',
+    logoImageUrl: 'https://shared.steamstatic.com/store_item_assets/steam/apps/814380/logo.png'
+  }
+}

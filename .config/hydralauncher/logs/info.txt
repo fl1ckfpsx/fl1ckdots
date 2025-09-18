@@ -1,0 +1,84 @@
+[2025-09-17 13:46:47.726] [info]  (main)         Acquired the lock
+[2025-09-17 13:46:47.793] [info]  (main)         Checking for update
+[2025-09-17 13:46:47.801] [info]  (main)         Generated new staging user ID: da0e4af5-4518-505c-a5cc-6c2c1633abf6
+[2025-09-17 13:46:48.270] [info]  (main)         Checking for update (already in progress)
+[2025-09-17 13:46:48.871] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 13:46:48.871] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 13:46:48.872] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 13:46:48.894] [info]  (renderer)     Initializing Hydra Resources
+[2025-09-17 13:46:49.372] [info]  (renderer)     [Featurebase SDK] Initializing SDK!
+[2025-09-17 13:47:42.308] [info]  (main)         Acquired the lock
+[2025-09-17 13:48:01.352] [info]  (main)         Acquired the lock
+[2025-09-17 14:19:17.351] [info]  (main)         Trying password  on /home/flick/games/Sekiro-Shadows-Die-Twice-SteamRIP.com.rar
+[2025-09-17 14:37:37.588] [info]  (main)         Checking for update
+[2025-09-17 14:37:38.212] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 14:37:38.212] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 15:28:22.171] [info]  (main)         Checking for update
+[2025-09-17 15:28:22.896] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 15:28:22.896] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 16:21:15.195] [info]  (main)         Checking for update
+[2025-09-17 16:21:15.855] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 16:21:15.855] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 17:12:11.717] [info]  (main)         Checking for update
+[2025-09-17 17:12:12.960] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 17:12:12.960] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 18:03:15.819] [info]  (main)         Checking for update
+[2025-09-17 18:03:16.896] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 18:03:16.896] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 18:54:10.010] [info]  (main)         Checking for update
+[2025-09-17 18:54:11.797] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 18:54:11.797] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 19:45:03.658] [info]  (main)         Checking for update
+[2025-09-17 19:45:04.915] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 19:45:04.915] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 20:35:57.299] [info]  (main)         Checking for update
+[2025-09-17 20:35:58.906] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 20:35:58.906] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 21:26:51.181] [info]  (main)         Checking for update
+[2025-09-17 21:26:51.766] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 21:26:51.766] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 22:17:44.745] [info]  (main)         Checking for update
+[2025-09-17 22:17:45.686] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 22:17:45.686] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 23:08:37.766] [info]  (main)         Checking for update
+[2025-09-17 23:08:38.326] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 23:08:38.327] [info]  (main)         Check for updates result: [object Object]
+[2025-09-17 23:59:31.141] [info]  (main)         Checking for update
+[2025-09-17 23:59:31.954] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-17 23:59:31.954] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 00:50:24.280] [info]  (main)         Checking for update
+[2025-09-18 00:50:24.986] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 00:50:24.986] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 01:41:17.409] [info]  (main)         Checking for update
+[2025-09-18 01:41:18.940] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 01:41:18.940] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 02:32:10.454] [info]  (main)         Checking for update
+[2025-09-18 02:32:11.670] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 02:32:11.670] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 03:23:03.481] [info]  (main)         Checking for update
+[2025-09-18 03:23:04.346] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 03:23:04.346] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 04:13:56.792] [info]  (main)         Checking for update
+[2025-09-18 04:13:57.792] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 04:13:57.793] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 05:04:50.245] [info]  (main)         Checking for update
+[2025-09-18 05:04:51.016] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 05:04:51.016] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 05:55:43.662] [info]  (main)         Checking for update
+[2025-09-18 05:55:44.364] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 05:55:44.364] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 06:46:36.653] [info]  (main)         Checking for update
+[2025-09-18 06:46:37.482] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 06:46:37.482] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 07:37:29.602] [info]  (main)         Checking for update
+[2025-09-18 07:37:30.317] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 07:37:30.317] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 08:28:22.654] [info]  (main)         Checking for update
+[2025-09-18 08:28:23.555] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 08:28:23.555] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 09:19:15.823] [info]  (main)         Checking for update
+[2025-09-18 09:19:16.735] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 09:19:16.735] [info]  (main)         Check for updates result: [object Object]
+[2025-09-18 10:10:09.121] [info]  (main)         Checking for update
+[2025-09-18 10:10:09.996] [info]  (main)         Update for version 3.6.8 is not available (latest version: 3.6.8, downgrade is disallowed).
+[2025-09-18 10:10:09.996] [info]  (main)         Check for updates result: [object Object]
